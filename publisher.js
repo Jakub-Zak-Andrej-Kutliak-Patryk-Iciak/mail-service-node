@@ -1,3 +1,5 @@
+// TODO: needs to be implemented
+
 const amqplib = require('amqplib');
 const amqpUrl = process.env.RABBITMQ_URL_PARAMS;
 
