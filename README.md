@@ -9,5 +9,5 @@ docker compose up
 
 To run mail service on its own execute the following
 ```commandline
-docker run -t tag_name -p host_port:container_port --name name_of_the_container
+docker run -p host_port:container_port --name name_of_the_container -d image_name
 ```
